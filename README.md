@@ -4,6 +4,7 @@ Runs a worker function on interval. Every worker instance can be started, stoppe
 
 Usage:
 ```javascript
+// import the library
 const createWorker = require('data-worker')
 
 // crate a worker that runs a worker function every 30 seconds
@@ -24,3 +25,8 @@ myWorker.stop()
 // get worker status
 console.log(myWorker.isRunning()) // false
 ```
+Run test:
+```javascript
+npm test
+```
+Configure for use with wallaby for testing.
