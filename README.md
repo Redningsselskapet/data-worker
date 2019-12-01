@@ -1,6 +1,6 @@
 # data-worker
 
-Runs a worker function on interval. Every worker instance can be started, stopped, view running status. Optionally name your worker. The worker name will be set to what ever you name + an unique id.
+Runs a worker function on interval. Every worker instance can be started, stopped, get running status. Optionally name your worker and the worker will be named to what ever you name it + an unique id.
 
 ### Example code:
 ```javascript
@@ -29,4 +29,4 @@ Run test:
 ```javascript
 npm test
 ```
-Configured for use with wallaby testing  tool.
+Configured for use with wallaby testing tool.
