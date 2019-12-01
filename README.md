@@ -2,12 +2,12 @@
 
 Runs a worker function on interval. Every worker instance can be started, stopped, view running status. Optionally name your worker. The worker name will be set to what ever you name + an unique id.
 
-Usage:
+### Example code:
 ```javascript
-// import the library
+// import library
 const createWorker = require('data-worker')
 
-// crate a worker that runs a worker function every 30 seconds
+// create a worker that runs a worker function every 30 seconds
 const myWorker = createWorker({worker: () => console.log('Doing som work...'), interval: 30000, name: 'my-worker'})
 
 // start worker
@@ -29,4 +29,4 @@ Run test:
 ```javascript
 npm test
 ```
-Configure for use with wallaby for testing.
+Configured for use with wallaby testing  tool.
