@@ -1,0 +1,9 @@
+{
+  // This is needed for intellisense for jest in vscode
+  // you also need to install typings for jest (npm -i --save-dev @types/jest)
+  "typeAcquisition": {
+    "include": [
+      "jest"
+    ]
+  }
+}

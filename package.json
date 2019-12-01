@@ -1,0 +1,32 @@
+{
+  "name": "@redningsselskapet/data-worker",
+  "version": "1.0.0",
+  "description": "Worker - Do work on interval",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redningsselskapet/data-worker"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "automock": false,
+    "verbose": true
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "author": "Bernt Anker (bernt.anker@rs.no) <https://rs.no>",
+  "license": "ISC",
+  "dependencies": {
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0"
+  }
+}
